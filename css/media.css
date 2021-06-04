@@ -1,0 +1,106 @@
+@media (max-width: 1240px) {
+	.team__item--4 {
+		left: 275px;
+	}
+}
+
+@media (max-width: 1174px) {
+    .slider__item-img {
+    	width: 100%;
+    	height: 250px;
+    }
+
+    .slider{
+    	margin: 0;
+    }
+
+    .slider__item {
+    	padding: 10px;
+    }
+}
+
+@media (max-width: 992px) {
+	.team__item--5{
+		bottom: 100px;
+	}
+	}
+
+
+@media (max-width: 992px) {
+   .header__inner {
+   	flex-wrap: wrap; /* This makes the content to move down to next line .. */
+   	height: auto;
+   	padding-top: 25px;
+   }
+
+.menu {
+	order: 1;
+	width: 100%;
+}
+
+.menu__list {
+	justify-content: flex-end;
+	padding-top: 30px;
+
+}
+
+.top__inner {
+	background-image: none;
+}
+
+.tools__items {
+	flex-wrap: wrap;
+}
+
+}
+
+
+@media (max-width: 524px) {
+	.header__inner {
+		display: block;
+	}
+
+	.menu {
+
+	}
+
+/* styling the hamburger menu in the best order/way */
+	.menu__list {
+		display: block;
+		position: absolute;
+		left: 0;
+		right: 0;
+		background-color: #fff;
+		text-align: center;
+		transition: all .5s;
+		transform: translateY(-300%);
+	}
+
+	.menu__list.menu__list--active{
+		transform: translateY(0%);
+		transition: all .5s;
+	}
+
+	.menu__list-link {
+		display: block;
+		padding: 10px 0;
+	}
+
+	.menu__btn{
+		display: block;
+		position: absolute;
+		right: 10px;
+		top: 25px;
+	}
+
+	.user-nav{
+		margin-left: 0;
+		margin-right: 0;
+		text-align: center;
+		padding-top: 30px;
+	}
+
+	.menu__list-item + .menu__list-item {
+		margin-left: 0;
+	}
+}
